@@ -1,0 +1,92 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* estilos del header */
+.header {
+  background-color: #e6e6e6;
+}
+
+.main-photo {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 10%;
+}
+
+/* estilos título principal */
+.main-title {
+  background-color: #c4c4c4;
+  color: #005677;
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 85px;
+  text-align: center;
+}
+
+/* estilos sección principal */
+section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 75%;
+}
+
+h2 {
+  background-color: #c4c4c4;
+  color: #005677;
+  padding-left: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+.bold-span {
+  font-weight: bold;
+}
+
+.academic-info,
+.work-info {
+  margin-left: 40px;
+}
+
+.academic-institution,
+.work-position {
+    margin-left: 50px;
+}
+
+.academic-extra-info,
+.work-extra-info {
+  margin-left: 165px;
+}
+
+/* estilos del footer */
+footer {
+    background-color: #005677;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer a {
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+}

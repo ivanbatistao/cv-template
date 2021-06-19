@@ -1,6 +1,6 @@
 body {
-  font-family: "Times New Roman", Times, serif;
   box-sizing: border-box;
+  font-family: "EB Garamond", serif;
   margin: 0;
   padding: 0;
 }
@@ -22,15 +22,19 @@ body {
 
 /* estilos título principal */
 .main-title {
-  background-color: #c4c4c4;
-  color: #005677;
+  background-color: rgb(51, 83, 132);
+  color: #f1f1f1;
   font-size: 35px;
   margin-top: 0;
-  margin-bottom: 85px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 /* estilos sección principal */
+main {
+  padding-bottom: 40px;
+}
+
 section {
   margin-left: auto;
   margin-right: auto;
@@ -38,9 +42,27 @@ section {
   width: 75%;
 }
 
+section a {
+  color: #000;
+  border: 2px solid rgb(51, 83, 132);;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+  text-decoration: none;
+  width: 20%;
+}
+
+section a:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
 h2 {
-  background-color: #c4c4c4;
-  color: #005677;
+  background-color: rgb(51, 83, 132);
+  border-radius: 5px;
+  color: #f1f1f1;
   padding-left: 10px;
 }
 
@@ -63,7 +85,7 @@ div {
 
 .academic-institution,
 .work-position {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .academic-extra-info,
@@ -73,20 +95,30 @@ div {
 
 /* estilos del footer */
 footer {
-    background-color: #005677;
-    display: flex;
-    justify-content: center;
+  background-color: rgb(51, 83, 132);
+  bottom: 0;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  position: fixed;
+  width: 100%;
 }
 
 footer p {
-    color: #fff;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 footer a {
-    display: block;
-    margin-top: 10px;
-    margin-left: 5px;
+  display: block;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+footer a img {
+  width: 25px;
 }
